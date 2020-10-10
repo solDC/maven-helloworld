@@ -87,6 +87,7 @@
 			</configuration>
 		</plugin>	
 		<!--  agrego un comentario para probar push build -->
+		<!--  otro comentario de prueba para build 3 de demo maven -->
 		<plugin>
 			<groupId>org.jacoco</groupId>
 			<artifactId>jacoco-maven-plugin</artifactId>
