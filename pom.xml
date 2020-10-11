@@ -15,8 +15,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <!-- Lo comento porque el profesor lo comenta <maven.compiler.source>1.7</maven.compiler.source> -->
-    <!-- Lo comento porque el profesor lo comenta <maven.compiler.target>1.7</maven.compiler.target> -->
+    <!--  <maven.compiler.source>1.7</maven.compiler.source> lo descomento que el profesor lo tiene asi -->
+    <!--  <maven.compiler.target>1.7</maven.compiler.target> lo descomento que el profesor lo tiene asi -->
   </properties>
 
   <dependencies>
@@ -86,8 +86,6 @@
 				<update>true</update>
 			</configuration>
 		</plugin>	
-		<!--  agrego un comentario para probar push build again and again and again -->
-<!-- prueba 5  desde rama test -->
 		<plugin>
 			<groupId>org.jacoco</groupId>
 			<artifactId>jacoco-maven-plugin</artifactId>
@@ -99,7 +97,6 @@
 					</goals>
 				</execution>
 
-				<!-- attached to Maven test phase -->
 				<execution>
 					<id>report</id>
 					<phase>test</phase>
@@ -108,7 +105,7 @@
 					</goals>
 				</execution>
 			</executions>
-		</plugin>	
+		</plugin>
       </plugins>
     </pluginManagement>
   </build>
