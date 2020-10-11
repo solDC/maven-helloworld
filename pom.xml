@@ -16,7 +16,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!--  <maven.compiler.source>1.7</maven.compiler.source> lo descomento que el profesor lo tiene asi -->
-    <!--  <maven.compiler.target>1.7</maven.compiler.target> lo descomento que el profesor lo tiene -->
+    <!--  <maven.compiler.target>1.7</maven.compiler.target> lo descomento que el profesor lo tiene asi -->
   </properties>
 
   <dependencies>
