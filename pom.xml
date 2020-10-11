@@ -15,8 +15,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source> <!--  lo descomento que en internet estña asi -->
-    <maven.compiler.target>1.7</maven.compiler.target> <!--  lo descomento que en internet estña asi -->
+    <!--  <maven.compiler.source>1.7</maven.compiler.source> lo descomento que el profesor lo tiene asi -->
+    <!--  <maven.compiler.target>1.7</maven.compiler.target> lo descomento que el profesor lo tiene -->
   </properties>
 
   <dependencies>
@@ -61,7 +61,6 @@
           <artifactId>maven-deploy-plugin</artifactId>
           <version>2.8.2</version>
         </plugin>
-        <!--  Comento esta sección de código que lo copié del ejemplo del profesor pero el ejemplo de internet no lo tiene
         <plugin>
 			<artifactId>maven-failsafe-plugin</artifactId>
 			<version>2.22.2</version>
@@ -107,7 +106,6 @@
 				</execution>
 			</executions>
 		</plugin>
-		-->	
       </plugins>
     </pluginManagement>
   </build>
