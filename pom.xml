@@ -14,7 +14,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <!--  <maven.compiler.source>1.7</maven.compiler.source> lo descomento que el profesor lo tiene asi -->
+    <!-- <maven.compiler.source>1.7</maven.compiler.source> lo descomento que el profesor lo tiene asi -->
     <!--  <maven.compiler.target>1.7</maven.compiler.target> lo descomento que el profesor lo tiene asi -->
   </properties>
 
@@ -72,7 +72,7 @@
 				</execution>
 			</executions>
 		</plugin>
-		<!-- 
+		<!-- lo comento venia en el ekemplo del profesor pero con plugin n hace falta 
 		<plugin>
 			<groupId>org.apache.tomcat.maven</groupId>
 			<artifactId>tomcat7-maven-plugin</artifactId>
